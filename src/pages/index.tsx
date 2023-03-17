@@ -8,7 +8,6 @@ import Footer from '@/components/Footer'
 import Hero from "@/components/home/Hero"
 import Plan from "@/components/home/Plan"
 import QA from "@/components/home/QA"
-import SignUp from "@/components/home/SignUp"
 
 export default () => {
   const mainRef = useRef<HTMLDivElement>(null)
@@ -30,7 +29,6 @@ export default () => {
         <Hero />
         <Plan />
         <QA />
-        <SignUp />
       </main>
       <Footer />
     </>
