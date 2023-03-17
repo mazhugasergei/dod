@@ -467,33 +467,6 @@ section.qa ul li .answer {
   padding: 1.75rem;
 }
 
-section.signup {
-  display: none;
-}
-section.signup form {
-  display: flex;
-  flex-flow: column;
-  gap: 1rem;
-}
-section.signup form .row {
-  display: grid;
-  gap: 1rem;
-}
-section.signup form .row.row1 {
-  grid-template-columns: repeat(2, 1fr);
-}
-section.signup form .row.row2 {
-  grid-template-columns: repeat(3, 1fr);
-}
-section.signup form .row.row3, section.signup form .row.row4 {
-  grid-template-columns: repeat(4, 1fr);
-}
-section.signup form .row .input-cont {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
-}
-
 main.events {
   display: flex;
   flex-flow: column;
