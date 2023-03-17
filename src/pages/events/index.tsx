@@ -1,3 +1,5 @@
+// next
+import Head from 'next/head'
 // components
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -5,6 +7,12 @@ import Footer from '@/components/Footer'
 export default () => {
   return (
     <>
+      <Head>
+        <title>День открытых дверей ДВФУ</title>
+        <meta name="description" content="1 апреля Дальневосточный федеральный университет в очном формате проводит День открытых дверей. Приглашаем абитуриентов и родителей!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Header />
       <main className="wrapper events">
         <h1>Программа Дня открытых дверей</h1>

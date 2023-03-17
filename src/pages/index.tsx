@@ -19,7 +19,7 @@ export default () => {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>День открытых дверей ДВФУ</title>
         <meta name="description" content="Приглашаем абитуриентов и родителей! Вы сможете узнать о подгтовке к поступлению в Дальневосточный федеральный университет" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
