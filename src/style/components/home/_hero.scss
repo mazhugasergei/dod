@@ -1,0 +1,35 @@
+section.hero{
+  overflow: hidden;
+  background: $bg;
+  color: #fff;
+  .wrapper{
+    position: relative;
+    z-index: 998;
+    isolation: isolate;
+    min-height: 98vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    .cont{
+      display: flex;
+      flex-flow: column;
+      gap: .55rem;
+      h1{
+        font-size: 2.75rem;
+        margin-bottom: 0.825rem;
+      }
+      p{
+        max-width: 29rem;
+        font-weight: 300;
+      }
+    }
+    img{
+      position: absolute;
+      right: 27vw;
+      transform: translate(20rem, 20%);
+      z-index: -1;
+      max-width: 50rem;
+      max-height: 100vh;
+    }
+  }
+}

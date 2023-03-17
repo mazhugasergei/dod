@@ -1,0 +1,16 @@
+:root{
+  @media (max-width: 1024px){
+    --wrapper-padding: 2rem;
+  }
+  @media (min-width: 1024px){
+    --wrapper-padding: 5rem;
+  }
+  --wrapper-max-width: calc(90rem + var(--wrapper-padding));
+}
+
+.wrapper{
+  max-width: var(--wrapper-max-width);
+  padding: 5rem var(--wrapper-padding);
+  margin-left: auto;
+  margin-right: auto;
+}

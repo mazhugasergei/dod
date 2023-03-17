@@ -1,0 +1,85 @@
+footer{
+  background: $bg;
+  color: #fff;
+  a{ color: #fff; }
+  .grid{
+    li{
+      &.left{
+        overflow: hidden;
+        position: relative;
+        background: $neutral;
+        iframe{
+          position: relative;
+          width: 100%;
+          min-height: 20rem;
+          height: 100%;
+          border: none;
+        }
+      }
+      &.center{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        gap: 1.5rem;
+        .item{
+          text-align: center;
+          .title{
+            font-weight: 700;
+          }
+          p{
+            text-align: center;
+            font-weight: 300;
+          }
+          &.flex-cont{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+            gap: 1rem;
+            .links{
+              display: flex;
+              justify-content: center;
+              gap: .3rem;
+              a{
+                display: block;
+                width: 2rem;
+                height: 2rem;
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin-top: 0.3rem;
+                &.vk{ background-image: url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/vk.svg'); }
+                &.ok{ background-image: url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/ok.svg'); }
+                &.rt{ background-image: url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/rt.svg'); }
+                &.tg{ background-image: url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/tg.svg'); }
+              }
+            }
+          }
+        }
+        .email{
+          text-decoration: underline;
+        }
+      }
+      &.right{
+        min-height: 20rem;
+        position: relative;
+        background: $neutral;
+        background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/3D_Tour.jpg");
+        background-size: cover;
+        background-position: center;
+        a{
+          position: absolute;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          background: #0000008e;
+          font-weight: 700;
+          font-size: 1.5rem;
+          backdrop-filter: blur(2px);
+          transition: .25s;
+          &:hover{
+            background: #0000003c;
+          }
+        }
+      }
+    }
+  }
+}

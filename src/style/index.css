@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --wrapper-max-width: calc(90rem + var(--wrapper-padding));
+}
+@media (max-width: 1024px) {
+  :root {
+    --wrapper-padding: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    --wrapper-padding: 5rem;
+  }
+}
+
+.wrapper {
+  max-width: var(--wrapper-max-width);
+  padding: 5rem var(--wrapper-padding);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 4rem 2rem;
+}
+@media (min-width: 64.0625rem) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+body, input, button {
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Unbounded", sans-serif;
+}
+
+h1 {
+  font-size: 1.85rem;
+  margin-bottom: 3.5rem;
+}
+
+.btn {
+  cursor: pointer;
+  display: block;
+  background: lightgray;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+}
+
+header {
+  position: relative;
+  width: 100%;
+}
+header .bg {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: linear-gradient(120deg, #402EFE, #402EFE 6.25%, #3F34FE 6.25%, #3F34FE 12.5%, #3E3AFE 12.5%, #3E3AFE 18.75%, #3D40FE 18.75%, #3D40FE 25%, #3D46FE 25%, #3D46FE 31.25%, #3C4CFE 31.25%, #3C4CFE 37.5%, #3B52FE 37.5%, #3B52FE 43.75%, #3A58FE 43.75%, #3A58FE 50%, #395EFF 50%, #395EFF 56.25%, #3864FF 56.25%, #3864FF 62.5%, #376AFF 62.5%, #376AFF 68.75%, #3670FF 68.75%, #3670FF 75%, #3676FF 75%, #3676FF 81.25%, #357CFF 81.25%, #357CFF 87.5%, #3482FF 87.5%, #3482FF 93.75%, #3388FF 93.75%, #3388FF);
+}
+header .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+@media (max-width: 1023px) {
+  header .wrapper {
+    justify-content: space-between;
+  }
+}
+header .wrapper .logo {
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1000;
+  width: 10rem;
+  height: 10rem;
+  background: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/fefu.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.15s;
+}
+header .wrapper .menuBtn {
+  position: relative;
+  z-index: 1000;
+  width: 3rem;
+  height: 3rem;
+}
+@media (min-width: 1024px) {
+  header .wrapper .menuBtn {
+    display: none;
+  }
+}
+header .wrapper .menuBtn * {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+header .wrapper .menuBtn #menuBtn {
+  opacity: 0;
+}
+header .wrapper .menuBtn #menuBtn:checked + label::before {
+  transform: rotate(-45deg);
+}
+header .wrapper .menuBtn #menuBtn:checked + label::after {
+  transform: rotate(45deg);
+}
+header .wrapper .menuBtn label {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .wrapper .menuBtn label::before, header .wrapper .menuBtn label::after {
+  content: "";
+  position: absolute;
+  height: 0.125rem;
+  width: 60%;
+  background: #fff;
+  transition: 0.15s;
+}
+header .wrapper .menuBtn label::before {
+  transform: translateY(-0.3rem);
+}
+header .wrapper .menuBtn label::after {
+  transform: translateY(0.3rem);
+}
+header .wrapper nav {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1023px) {
+  header .wrapper nav {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    flex-flow: column;
+    gap: 2rem;
+    justify-content: center;
+    background: #402efe;
+    transition: 0.15s;
+  }
+  header .wrapper nav.hidden {
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
+  }
+}
+@media (min-width: 1024px) {
+  header .wrapper nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+header .wrapper nav ul {
+  display: flex;
+}
+@media (max-width: 1023px) {
+  header .wrapper nav ul:nth-child(1) {
+    display: none;
+  }
+  header .wrapper nav ul:nth-child(2) {
+    gap: 1rem;
+    flex-flow: column;
+  }
+}
+@media (min-width: 1024px) {
+  header .wrapper nav ul:nth-child(2) {
+    gap: 2rem;
+  }
+}
+header .wrapper nav ul li a {
+  color: #fff;
+  font-weight: 300;
+  white-space: nowrap;
+}
+@media (max-width: 1023px) {
+  header .wrapper nav ul li a {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
+header .wrapper nav ul:nth-child(3) {
+  gap: 1rem;
+}
+header .wrapper nav ul:nth-child(3) li a {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header .wrapper nav ul:nth-child(3) li a.vk {
+  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/vk.svg");
+}
+header .wrapper nav ul:nth-child(3) li a.tg {
+  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/tg.svg");
+}
+header .wrapper nav ul:nth-child(3) li a.ok {
+  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/ok.svg");
+}
+header .wrapper nav ul:nth-child(3) li a.rt {
+  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/rt.svg");
+}
+
+footer {
+  background: linear-gradient(120deg, #402EFE, #402EFE 6.25%, #3F34FE 6.25%, #3F34FE 12.5%, #3E3AFE 12.5%, #3E3AFE 18.75%, #3D40FE 18.75%, #3D40FE 25%, #3D46FE 25%, #3D46FE 31.25%, #3C4CFE 31.25%, #3C4CFE 37.5%, #3B52FE 37.5%, #3B52FE 43.75%, #3A58FE 43.75%, #3A58FE 50%, #395EFF 50%, #395EFF 56.25%, #3864FF 56.25%, #3864FF 62.5%, #376AFF 62.5%, #376AFF 68.75%, #3670FF 68.75%, #3670FF 75%, #3676FF 75%, #3676FF 81.25%, #357CFF 81.25%, #357CFF 87.5%, #3482FF 87.5%, #3482FF 93.75%, #3388FF 93.75%, #3388FF);
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
+footer .grid li.left {
+  overflow: hidden;
+  position: relative;
+  background: #aaa;
+}
+footer .grid li.left iframe {
+  position: relative;
+  width: 100%;
+  min-height: 20rem;
+  height: 100%;
+  border: none;
+}
+footer .grid li.center {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+footer .grid li.center .item {
+  text-align: center;
+}
+footer .grid li.center .item .title {
+  font-weight: 700;
+}
+footer .grid li.center .item p {
+  text-align: center;
+  font-weight: 300;
+}
+footer .grid li.center .item.flex-cont {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+  gap: 1rem;
+}
+footer .grid li.center .item.flex-cont .links {
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+}
+footer .grid li.center .item.flex-cont .links a {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0.3rem;
+}
+footer .grid li.center .item.flex-cont .links a.vk {
+  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/vk.svg");
+}
+footer .grid li.center .item.flex-cont .links a.ok {
+  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/ok.svg");
+}
+footer .grid li.center .item.flex-cont .links a.rt {
+  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/rt.svg");
+}
+footer .grid li.center .item.flex-cont .links a.tg {
+  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/tg.svg");
+}
+footer .grid li.center .email {
+  text-decoration: underline;
+}
+footer .grid li.right {
+  min-height: 20rem;
+  position: relative;
+  background: #aaa;
+  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/3D_Tour.jpg");
+  background-size: cover;
+  background-position: center;
+}
+footer .grid li.right a {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.5568627451);
+  font-weight: 700;
+  font-size: 1.5rem;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  transition: 0.25s;
+}
+footer .grid li.right a:hover {
+  background: rgba(0, 0, 0, 0.2352941176);
+}
+
+section.hero {
+  overflow: hidden;
+  background: linear-gradient(120deg, #402EFE, #402EFE 6.25%, #3F34FE 6.25%, #3F34FE 12.5%, #3E3AFE 12.5%, #3E3AFE 18.75%, #3D40FE 18.75%, #3D40FE 25%, #3D46FE 25%, #3D46FE 31.25%, #3C4CFE 31.25%, #3C4CFE 37.5%, #3B52FE 37.5%, #3B52FE 43.75%, #3A58FE 43.75%, #3A58FE 50%, #395EFF 50%, #395EFF 56.25%, #3864FF 56.25%, #3864FF 62.5%, #376AFF 62.5%, #376AFF 68.75%, #3670FF 68.75%, #3670FF 75%, #3676FF 75%, #3676FF 81.25%, #357CFF 81.25%, #357CFF 87.5%, #3482FF 87.5%, #3482FF 93.75%, #3388FF 93.75%, #3388FF);
+  color: #fff;
+}
+section.hero .wrapper {
+  position: relative;
+  z-index: 998;
+  isolation: isolate;
+  min-height: 98vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+section.hero .wrapper .cont {
+  display: flex;
+  flex-flow: column;
+  gap: 0.55rem;
+}
+section.hero .wrapper .cont h1 {
+  font-size: 2.75rem;
+  margin-bottom: 0.825rem;
+}
+section.hero .wrapper .cont p {
+  max-width: 29rem;
+  font-weight: 300;
+}
+section.hero .wrapper img {
+  position: absolute;
+  right: 27vw;
+  transform: translate(20rem, 20%);
+  z-index: -1;
+  max-width: 50rem;
+  max-height: 100vh;
+}
+
+section.plan .grid .grid-item {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+section.plan .grid .grid-item.left ul {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+}
+section.plan .grid .grid-item.left ul li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+section.plan .grid .grid-item.left ul li .num {
+  flex-shrink: 0;
+  width: 3rem;
+  height: 3rem;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  color: #395EFF;
+  border: 0.0625rem solid #395EFF;
+  border-radius: 50%;
+}
+section.plan .grid .grid-item.center {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+section.plan .grid .grid-item.center .num {
+  font-size: 7.5rem;
+  font-weight: 700;
+  color: #395EFF;
+}
+section.plan .grid .grid-item.right div {
+  text-align: center;
+}
+section.plan .grid .grid-item.right .btn {
+  margin-top: 2rem;
+}
+
+section.qa ul {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+section.qa ul li.hidden .question {
+  border-radius: 0.5rem;
+}
+section.qa ul li.hidden .question .sign::after {
+  display: block;
+}
+section.qa ul li.hidden .answer {
+  display: none;
+}
+section.qa ul li .question {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  background: #D9D9D9;
+  font-size: 1.17rem;
+  font-weight: 700;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  padding: 1.75rem;
+}
+section.qa ul li .question .sign {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.qa ul li .question .sign::before, section.qa ul li .question .sign::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.125rem;
+  background: #000;
+}
+section.qa ul li .question .sign::after {
+  display: none;
+  transform: rotate(90deg);
+}
+section.qa ul li .answer {
+  overflow: hidden;
+  line-height: 1.5;
+  background: #F7F7F7;
+  border: 0.0625rem solid #D9D9D9;
+  border-top: none;
+  border-radius: 0 0 0.5rem 0.5rem;
+  padding: 1.75rem;
+}
+
+section.signup {
+  display: none;
+}
+section.signup form {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+section.signup form .row {
+  display: grid;
+  gap: 1rem;
+}
+section.signup form .row.row1 {
+  grid-template-columns: repeat(2, 1fr);
+}
+section.signup form .row.row2 {
+  grid-template-columns: repeat(3, 1fr);
+}
+section.signup form .row.row3, section.signup form .row.row4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+section.signup form .row .input-cont {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+main.events {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+main.events hr {
+  border: none;
+  border-top: 0.0625rem solid #ddd;
+}
+main.events .item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(22rem, 100%), 1fr));
+  gap: 0 1rem;
+}
+main.events .item .img {
+  aspect-ratio: 1/1;
+  background-size: 130% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+main.events .item .right {
+  padding: 2rem 0;
+}/*# sourceMappingURL=index.css.map */

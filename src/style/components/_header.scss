@@ -1,0 +1,151 @@
+header{
+  position: relative;
+  width: 100%;
+  .bg{
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: $bg;
+  }
+  .wrapper{
+    @media (max-width: 1023px){
+      justify-content: space-between;
+    }
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+
+    .logo{
+      flex-shrink: 0;
+      position: relative;
+      z-index: 1000;
+      width: 10rem;
+      height: 10rem;
+      background: url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/fefu.svg');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: .15s;
+    }
+
+    .menuBtn{
+      @media (min-width: 1024px){
+        display: none;
+      }
+      position: relative;
+      z-index: 1000;
+      width: 3rem;
+      height: 3rem;
+      *{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      #menuBtn{
+        opacity: 0;
+        &:checked{
+          & + label{
+            &::before{
+              transform: rotate(-45deg);
+            }
+            &::after{
+              transform: rotate(45deg);
+            }
+          }
+        }
+      }
+      label{
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &::before, &::after{
+          content: '';
+          position: absolute;
+          height: .125rem;
+          width: 60%;
+          background: #fff;
+          transition: .15s;
+        }
+        &::before{
+          transform: translateY(-0.3rem);
+        }
+        &::after{
+          transform: translateY(0.3rem);
+        }
+      }
+    }
+
+    nav{
+      @media (max-width: 1023px){
+        &.hidden{
+          visibility: hidden;
+          pointer-events: none;
+          opacity: 0;
+        }
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        flex-flow: column;
+        gap: 2rem;
+        justify-content: center;
+        background: $main_1;
+        transition: .15s;
+      }
+      @media (min-width: 1024px){
+        width: 100%;
+        justify-content: space-between;
+      }
+      display: flex;
+      align-items: center;
+      ul{
+        @media (max-width: 1023px){
+          &:nth-child(1){ display: none; }
+          &:nth-child(2){
+            gap: 1rem;
+            flex-flow: column;
+          }
+        }
+        @media (min-width: 1024px){
+          &:nth-child(2){
+            gap: 2rem;
+          }
+        }
+        display: flex;
+        li{
+          a{
+            @media (max-width: 1023px){
+              font-size: 1.5rem;
+              font-weight: 700;
+            }
+            color: #fff;
+            font-weight: 300;
+            white-space: nowrap;
+          }
+        }
+        &:nth-child(3){
+          gap: 1rem;
+          li{
+            a{
+              display: block;
+              width: 2rem;
+              height: 2rem;
+              background-size: contain;
+              background-position: center;
+              background-repeat: no-repeat;
+              &.vk{ background-image: url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/vk.svg'); }
+              &.tg{ background-image: url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/tg.svg'); }
+              &.ok{ background-image: url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/ok.svg'); }
+              &.rt{ background-image: url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/rt.svg'); }
+            }
+          }
+        }
+      }
+    }
+  }
+}

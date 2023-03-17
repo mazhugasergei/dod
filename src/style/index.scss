@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth
+}
+
+@import "./ui/colors";
+@import "./ui/wrapper";
+@import "./ui/grid";
+@import "./ui/typography";
+@import "./ui/button";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/home/hero";
+@import "./components/home/plan";
+@import "./components/home/qa";
+@import "./components/home/signup";
+@import "./components/events";
