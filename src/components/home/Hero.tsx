@@ -7,7 +7,7 @@ const Hero = () => {
           <h1>День открытых дверей!</h1>
           <p>Приглашаем абитуриентов и родителей! Вы сможете узнать о подгтовке к поступлению в Дальневосточный федеральный университет</p>
         </div>
-        <img src="https://raw.githubusercontent.com/markuswedler/dod/60c5f01e125a4bf2e5435b2e824c921e150c57ac/public/assets/images/vlad.svg" alt="" />
+        <img src="https://github.com/markuswedler/dod/blob/main/public/assets/images/vlad.png?raw=true" alt="" />
       </div>
     </section>
   )
