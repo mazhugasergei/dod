@@ -155,13 +155,13 @@ header .wrapper .menuBtn label::after {
   transform: translateY(0.3rem);
 }
 header .wrapper nav {
+  z-index: 999;
   display: flex;
   align-items: center;
 }
 @media (max-width: 1023px) {
   header .wrapper nav {
     position: fixed;
-    z-index: 999;
     top: 0;
     left: 0;
     right: 0;
