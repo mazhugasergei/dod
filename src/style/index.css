@@ -489,4 +489,7 @@ main.events .item .img {
 }
 main.events .item .right {
   padding: 2rem 0;
+}
+main.events .item .right h4 {
+  margin-top: 0.5rem;
 }/*# sourceMappingURL=index.css.map */
