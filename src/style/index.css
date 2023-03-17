@@ -353,12 +353,12 @@ section.hero .wrapper .cont h1 {
   margin-bottom: 0.9rem;
 }
 section.hero .wrapper .cont p {
-  max-width: min(29rem, 60vw);
+  max-width: min(29rem, 50vw);
   font-weight: 300;
 }
 section.hero .wrapper img {
   position: absolute;
-  right: 22vw;
+  right: 20vw;
   transform: translate(18rem, 20%);
   z-index: -1;
   max-width: 50rem;
