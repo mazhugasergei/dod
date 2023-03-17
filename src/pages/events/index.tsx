@@ -28,22 +28,22 @@ export default () => {
         </div>
         <hr />
         <div className="item">
-          {/* <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%904.svg" alt="" /> */}
-          <div className="img" style={{ background: "url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%904.svg')" }} />
-          <div className="right">
-            <h3>Холл 4 уровень</h3>
-            <h4>9:00 – 17:00</h4>
-            <p>Ярмарка Институтов (12 стендов) + Военный учебный центр</p>
-          </div>
-        </div>
-        <hr />
-        <div className="item">
           {/* <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%905.svg" alt="" /> */}
           <div className="img" style={{ background: "url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%905.svg')" }} />
           <div className="right">
             <h3>Холл 5 уровень</h3>
             <h4>9:00 – 17:00</h4>
             <p>Приемная комиссия / Договорной отдел / Представители банков: Сбер и Газпром / Служба проректора по международным отношениям: «Возможности ДВФУ: стажировки и обучение за рубежом» / Дополнительное профессиональное образование</p>
+          </div>
+        </div>
+        <hr />
+        <div className="item">
+          {/* <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%904.svg" alt="" /> */}
+          <div className="img" style={{ background: "url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%904.svg')" }} />
+          <div className="right">
+            <h3>Холл 4 уровень</h3>
+            <h4>9:00 – 17:00</h4>
+            <p>Ярмарка Институтов (12 стендов) + Военный учебный центр</p>
           </div>
         </div>
         <hr />
