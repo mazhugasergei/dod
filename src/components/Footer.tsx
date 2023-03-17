@@ -32,9 +32,9 @@ const Footer = () => {
                 </div>
               </div>
               <div className="item">
-                <div className="title">Чат-бот в Telegram</div>
+                <div className="title">Поступление в ДВФУ</div>
                 <div className="links">
-                  <a target="_blank" href="https://t.me/fefudvfu" className="tg" />
+                  <a target="_blank" href="https://www.dvfu.ru/admission/" className="ad" />
                 </div>
               </div>
             </div>

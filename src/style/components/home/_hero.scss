@@ -19,14 +19,14 @@ section.hero{
         margin-bottom: 0.9rem;
       }
       p{
-        max-width: 29rem;
+        max-width: min(29rem, 60vw);
         font-weight: 300;
       }
     }
     img{
       position: absolute;
-      right: 20vw;
-      transform: translate(20rem, 20%);
+      right: 22vw;
+      transform: translate(18rem, 20%);
       z-index: -1;
       max-width: 50rem;
       max-height: 100vh;

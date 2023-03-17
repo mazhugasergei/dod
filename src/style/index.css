@@ -103,7 +103,7 @@ header .wrapper .logo {
   z-index: 1000;
   width: 10rem;
   height: 10rem;
-  background: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/fefu.svg");
+  background: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/logo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -299,8 +299,8 @@ footer .grid li.center .item.flex-cont .links a.ok {
 footer .grid li.center .item.flex-cont .links a.rt {
   background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/rt.svg");
 }
-footer .grid li.center .item.flex-cont .links a.tg {
-  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/tg.svg");
+footer .grid li.center .item.flex-cont .links a.ad {
+  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/fefu.svg");
 }
 footer .grid li.center .email {
   text-decoration: underline;
@@ -353,13 +353,13 @@ section.hero .wrapper .cont h1 {
   margin-bottom: 0.9rem;
 }
 section.hero .wrapper .cont p {
-  max-width: 29rem;
+  max-width: min(29rem, 60vw);
   font-weight: 300;
 }
 section.hero .wrapper img {
   position: absolute;
-  right: 20vw;
-  transform: translate(20rem, 20%);
+  right: 22vw;
+  transform: translate(18rem, 20%);
   z-index: -1;
   max-width: 50rem;
   max-height: 100vh;
