@@ -7,6 +7,7 @@ export default () => {
     <>
       <Header />
       <main className="wrapper events">
+        <h1>Программа Дня открытых дверей</h1>
         <h2>Корпус А</h2>
         <div className="item">
           {/* <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%906.svg" alt="" /> */}
