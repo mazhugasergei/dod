@@ -13,10 +13,10 @@ section.hero{
     .cont{
       display: flex;
       flex-flow: column;
-      gap: .55rem;
+      gap: .6rem;
       h1{
-        font-size: 2.75rem;
-        margin-bottom: 0.825rem;
+        font-size: 3rem;
+        margin-bottom: 0.9rem;
       }
       p{
         max-width: 29rem;
@@ -25,7 +25,7 @@ section.hero{
     }
     img{
       position: absolute;
-      right: 27vw;
+      right: 20vw;
       transform: translate(20rem, 20%);
       z-index: -1;
       max-width: 50rem;
