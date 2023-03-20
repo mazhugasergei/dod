@@ -14,11 +14,11 @@ export default () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      {/* <main className="wrapper events">
+      <main className="wrapper events">
         <h1>Программа Дня открытых дверей</h1>
         <h2>Корпус А</h2>
         <div className="item">
-          <div className="img" style={{ background: "url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%906.svg')" }} />
+          <div className="img" style={{ background: "url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A6.svg')" }} />
           <div className="right lightblue">
             <h3>Холл 6 уровень</h3>
             <h4>9:00 – 17:00</h4>
@@ -85,9 +85,7 @@ export default () => {
             <p>Дополнительный ресепшен Ярмарка студенческих организаций, студенческих активностей / Студенческое научное общество / AR/VR Мобильная телестудия для выступлений проректоров, директоров Институтов, руководителей направлений.</p>
           </div>
         </div>
-      </main> */}
-      <img style={{ display: "block", width: "100%" }} src="https://github.com/markuswedler/dod/blob/main/public/assets/images/floors/A.jpg?raw=true" alt="" />
-      <img style={{ display: "block", width: "100%" }} src="https://github.com/markuswedler/dod/blob/main/public/assets/images/floors/B.jpg?raw=true" alt="" />
+      </main>
       <Footer />
     </>
   )
