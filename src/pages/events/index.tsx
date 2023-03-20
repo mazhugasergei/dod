@@ -54,7 +54,7 @@ export default () => {
 
         <h2>Корпус В</h2>
         <div className="item">
-          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6a.svg" alt="" />
+          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
           <div className="right blue">
             <h3>Синий зал 6 уровень</h3>
             <h4>11:00 – 12:30</h4>
@@ -66,7 +66,7 @@ export default () => {
           </div>
         </div>
         <div className="item">
-          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6a.svg" alt="" />
+          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
           <div className="right lightblue">
             <h3>Средний зал 6 уровень (центральный лекторий)</h3>
             <h4>10:00 – 10:30</h4>
@@ -78,7 +78,7 @@ export default () => {
           </div>
         </div>
         <div className="item">
-          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6a.svg" alt="" />
+          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
           <div className="right orange">
             <h3>Холл 6 уровень</h3>
             <h4>9:00 – 17:00</h4>
