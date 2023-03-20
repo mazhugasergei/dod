@@ -486,11 +486,11 @@ section.qa ul li .answer {
 main.events {
   display: flex;
   flex-flow: column;
-  gap: 1rem;
+  gap: 3rem;
 }
 main.events h2 {
   text-align: center;
-  margin: 5rem 0;
+  margin: 7.5rem 0;
 }
 main.events .item {
   display: grid;
