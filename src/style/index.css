@@ -513,7 +513,7 @@ main.events .item .right::before {
   border-radius: 50%;
 }
 main.events .item .right.lightblue::before {
-  background: #76B0E1;
+  background: #66B9FF;
 }
 main.events .item .right.orange::before {
   background: #E94A3F;
