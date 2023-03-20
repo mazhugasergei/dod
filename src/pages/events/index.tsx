@@ -86,7 +86,8 @@ export default () => {
           </div>
         </div>
       </main> */}
-      <img src="" alt="" />
+      <img style={{ display: "block", width: "100%" }} src="https://github.com/markuswedler/dod/blob/main/public/assets/images/floors/A.jpg?raw=true" alt="" />
+      <img style={{ display: "block", width: "100%" }} src="https://github.com/markuswedler/dod/blob/main/public/assets/images/floors/B.jpg?raw=true" alt="" />
       <Footer />
     </>
   )
