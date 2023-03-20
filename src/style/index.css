@@ -516,10 +516,10 @@ main.events .item .right.lightblue::before {
   background: #66B9FF;
 }
 main.events .item .right.orange::before {
-  background: #E94A3F;
+  background: #F8493B;
 }
 main.events .item .right.blue::before {
-  background: #2D2E83;
+  background: #3387FF;
 }
 main.events .item .right h4 {
   margin-top: 0.5rem;

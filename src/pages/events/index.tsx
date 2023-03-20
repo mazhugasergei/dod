@@ -27,7 +27,7 @@ export default () => {
         </div>
         <div className="item">
           <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A5.svg" alt="" />
-          <div className="right orange">
+          <div className="right blue">
             <h3>Холл 5 уровень</h3>
             <h4>9:00 – 17:00</h4>
             <p>Приемная комиссия / Договорной отдел / Представители банков: Сбер и Газпром / Служба проректора по международным отношениям: «Возможности ДВФУ: стажировки и обучение за рубежом» / Дополнительное профессиональное образование</p>
@@ -35,7 +35,7 @@ export default () => {
         </div>
         <div className="item">
           <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4.svg" alt="" />
-          <div className="right">
+          <div className="right orange">
             <h3>Холл 4 уровень</h3>
             <h4>9:00 – 17:00</h4>
             <p>Ярмарка Институтов (12 стендов) + Военный учебный центр</p>
@@ -43,7 +43,7 @@ export default () => {
         </div>
         <div className="item">
           <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4.svg" alt="" />
-          <div className="right">
+          <div className="right lightblue">
             <h3>Кафе «Аякс» 4 уровень</h3>
             <h4>13:00 – 13:30</h4>
             <p>Русский язык: ЕГЭ (ГИА-11) «Как писать сочинения по русскому языку?». Консультация для школьников от заместителя председателя предметной комиссии по литературе Панчеко Т.Ф.</p>
@@ -54,7 +54,7 @@ export default () => {
 
         <h2>Корпус В</h2>
         <div className="item">
-          <div className="img" style={{ background: "url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%926.svg')" }} />
+          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
           <div className="right blue">
             <h3>Синий зал 6 уровень</h3>
             <h4>11:00 – 12:30</h4>
@@ -66,7 +66,7 @@ export default () => {
           </div>
         </div>
         <div className="item">
-          <div className="img" style={{ background: "url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%926.svg')" }} />
+          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
           <div className="right lightblue">
             <h3>Средний зал 6 уровень (центральный лекторий)</h3>
             <h4>10:00 – 10:30</h4>
@@ -78,7 +78,7 @@ export default () => {
           </div>
         </div>
         <div className="item">
-          <div className="img" style={{ background: "url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%926.svg')" }} />
+          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
           <div className="right orange">
             <h3>Холл 6 уровень</h3>
             <h4>9:00 – 17:00</h4>
