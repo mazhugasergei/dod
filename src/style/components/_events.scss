@@ -10,12 +10,6 @@ main.events{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(22rem, 100%), 1fr));
     gap: 0 1rem;
-    .img{
-      aspect-ratio: 1/1;
-      background-size: 130% !important;
-      background-position: center !important;
-      background-repeat: no-repeat !important;
-    }
     .right{
       position: relative;
       padding: 2rem 0;

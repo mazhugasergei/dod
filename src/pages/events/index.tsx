@@ -18,7 +18,7 @@ export default () => {
         <h1>Программа Дня открытых дверей</h1>
         <h2>Корпус А</h2>
         <div className="item">
-          <div className="img" style={{ background: "url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A6.svg')" }} />
+          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A6.svg" alt="" />
           <div className="right lightblue">
             <h3>Холл 6 уровень</h3>
             <h4>9:00 – 17:00</h4>

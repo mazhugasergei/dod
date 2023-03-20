@@ -497,12 +497,6 @@ main.events .item {
   grid-template-columns: repeat(auto-fit, minmax(min(22rem, 100%), 1fr));
   gap: 0 1rem;
 }
-main.events .item .img {
-  aspect-ratio: 1/1;
-  background-size: 130% !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-}
 main.events .item .right {
   position: relative;
   padding: 2rem 0;
