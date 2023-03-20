@@ -169,7 +169,7 @@ header .wrapper nav {
     flex-flow: column;
     gap: 2rem;
     justify-content: center;
-    background: #402efe;
+    background: linear-gradient(120deg, #402EFE, #3388FF);
     transition: 0.15s;
   }
   header .wrapper nav.hidden {

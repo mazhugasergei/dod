@@ -93,7 +93,7 @@ header{
         flex-flow: column;
         gap: 2rem;
         justify-content: center;
-        background: $main_1;
+        background: linear-gradient(120deg, #402EFE, #3388FF);
         transition: .15s;
       }
       @media (min-width: 1024px){
