@@ -14,22 +14,27 @@ section.hero{
       display: flex;
       flex-flow: column;
       gap: .6rem;
+      h1, p{
+        text-shadow: 0 0 10px #00000029;
+      }
       h1{
-        font-size: 3rem;
+        font-size: 3.75rem;
         margin-bottom: 0.9rem;
       }
       p{
-        max-width: min(29rem, 50vw);
+        max-width: min(35rem, 70vw);
+        font-size: 1.2rem;
         font-weight: 300;
       }
     }
     img{
+      pointer-events: none;
       position: absolute;
       right: 20vw;
-      transform: translate(18rem, 20%);
+      transform: translate(20rem, 20%);
       z-index: -1;
-      max-width: 50rem;
-      max-height: 100vh;
+      max-width: 55rem;
+      max-height: 110vh;
     }
   }
 }
