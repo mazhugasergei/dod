@@ -26,7 +26,7 @@ export default () => {
           </div>
         </div>
         <div className="item">
-          <div className="img" style={{ background: "url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%905.svg')" }} />
+          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A5.svg" alt="" />
           <div className="right orange">
             <h3>Холл 5 уровень</h3>
             <h4>9:00 – 17:00</h4>
