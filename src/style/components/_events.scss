@@ -10,6 +10,10 @@ main.events{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(22rem, 100%), 1fr));
     gap: 0 1rem;
+    img{
+      display: block;
+      width: 100%;
+    }
     .right{
       position: relative;
       padding: 2rem 0;
