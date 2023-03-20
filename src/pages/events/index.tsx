@@ -14,8 +14,8 @@ export default () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="wrapper events">
-        {/* <h1>Программа Дня открытых дверей</h1>
+      {/* <main className="wrapper events">
+        <h1>Программа Дня открытых дверей</h1>
         <h2>Корпус А</h2>
         <div className="item">
           <div className="img" style={{ background: "url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%20%D0%906.svg')" }} />
@@ -84,9 +84,9 @@ export default () => {
             <h4>9:00 – 17:00</h4>
             <p>Дополнительный ресепшен Ярмарка студенческих организаций, студенческих активностей / Студенческое научное общество / AR/VR Мобильная телестудия для выступлений проректоров, директоров Институтов, руководителей направлений.</p>
           </div>
-        </div> */}
-        <img src="" alt="" />
-      </main>
+        </div>
+      </main> */}
+      <img src="" alt="" />
       <Footer />
     </>
   )
