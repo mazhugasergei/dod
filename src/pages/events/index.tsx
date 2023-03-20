@@ -18,7 +18,7 @@ export default () => {
         <h1>Программа Дня открытых дверей</h1>
         <h2>Корпус А</h2>
         <div className="item">
-          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A6.svg" alt="" />
+          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A6a.svg" alt="" />
           <div className="right lightblue">
             <h3>Холл 6 уровень</h3>
             <h4>9:00 – 17:00</h4>
@@ -34,7 +34,7 @@ export default () => {
           </div>
         </div>
         <div className="item">
-          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4.svg" alt="" />
+          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4a.svg" alt="" />
           <div className="right orange">
             <h3>Холл 4 уровень</h3>
             <h4>9:00 – 17:00</h4>
@@ -42,7 +42,7 @@ export default () => {
           </div>
         </div>
         <div className="item">
-          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4.svg" alt="" />
+          <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4a.svg" alt="" />
           <div className="right lightblue">
             <h3>Кафе «Аякс» 4 уровень</h3>
             <h4>13:00 – 13:30</h4>
