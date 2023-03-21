@@ -19,7 +19,9 @@ export default () => {
         <div className="container">
           <h2>Корпус А</h2>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A6.svg" alt="" />
+            <a target="_blank" href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A.jpg">
+              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A6.svg" alt="" />
+            </a>
             <div className="right lightblue">
               <h3>Холл 6 уровень</h3>
               <h4>9:00 – 17:00</h4>
@@ -27,7 +29,9 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A5.svg" alt="" />
+            <a target="_blank" href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A.jpg">
+              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A5.svg" alt="" />
+            </a>
             <div className="right blue">
               <h3>Холл 5 уровень</h3>
               <h4>9:00 – 17:00</h4>
@@ -35,7 +39,9 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4.svg" alt="" />
+            <a target="_blank" href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A.jpg">
+              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4.svg" alt="" />
+            </a>
             <div className="right orange">
               <h3>Холл 4 уровень</h3>
               <h4>9:00 – 17:00</h4>
@@ -43,7 +49,9 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4.svg" alt="" />
+            <a target="_blank" href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A.jpg">
+              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4.svg" alt="" />
+            </a>
             <div className="right lightblue">
               <h3>Кафе «Аякс» 4 уровень</h3>
               <h4>13:00 – 13:30</h4>
@@ -55,7 +63,9 @@ export default () => {
 
           <h2>Корпус В</h2>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
+            <a target="_blank" href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B.jpg">
+              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
+            </a>
             <div className="right blue">
               <h3>Синий зал 6 уровень</h3>
               <h4>11:00 – 12:30</h4>
@@ -67,7 +77,9 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
+            <a target="_blank" href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B.jpg">
+              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
+            </a>
             <div className="right lightblue">
               <h3>Средний зал 6 уровень (центральный лекторий)</h3>
               <h4>10:00 – 10:30</h4>
@@ -79,7 +91,9 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
+            <a target="_blank" href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B.jpg">
+              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
+            </a>
             <div className="right orange">
               <h3>Холл 6 уровень</h3>
               <h4>9:00 – 17:00</h4>
