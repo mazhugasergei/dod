@@ -60,7 +60,9 @@ export default () => {
               <p>Встреча со студентами «Как пережить ЕГЭ? Личный опыт»</p>
             </div>
           </div>
+        </div>
 
+        <div className="container">
           <h2>Корпус В</h2>
           <div className="item">
             <a target="_blank" href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B.jpg">
