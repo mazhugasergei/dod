@@ -393,11 +393,12 @@ section.hero .wrapper img {
   transform: translateY(38%);
   z-index: -1;
   max-width: 880px;
-  max-height: 1920px;
+  max-height: 120vh;
 }
 @media (max-width: 1025px) {
   section.hero .wrapper img {
-    right: -250px;
+    left: 50%;
+    transform: translate(calc(-50% + 55px), 50%);
   }
 }
 

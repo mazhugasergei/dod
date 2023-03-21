@@ -45,7 +45,10 @@ section.hero{
     }
     img{
       @media (max-width: 1025px){
-        right: -250px;
+        // right: -220px;
+        left: 50%;
+
+        transform: translate(calc(-50% + 55px), 50%);
       }
       pointer-events: none;
       position: absolute;
@@ -53,7 +56,7 @@ section.hero{
       transform: translateY(38%);
       z-index: -1;
       max-width: 880px;
-      max-height: 1920px;
+      max-height: 120vh;
     }
   }
 }
