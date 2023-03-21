@@ -64,7 +64,7 @@ export default () => {
           <h2>Корпус В</h2>
           <div className="item">
             <a target="_blank" href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B.jpg">
-              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
+              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6blue.svg" alt="" />
             </a>
             <div className="right blue">
               <h3>Синий зал 6 уровень</h3>
@@ -78,7 +78,7 @@ export default () => {
           </div>
           <div className="item">
             <a target="_blank" href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B.jpg">
-              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
+              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6middle.svg" alt="" />
             </a>
             <div className="right lightblue">
               <h3>Средний зал 6 уровень (центральный лекторий)</h3>
@@ -92,7 +92,7 @@ export default () => {
           </div>
           <div className="item">
             <a target="_blank" href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B.jpg">
-              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6.svg" alt="" />
+              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6hall.svg" alt="" />
             </a>
             <div className="right orange">
               <h3>Холл 6 уровень</h3>
