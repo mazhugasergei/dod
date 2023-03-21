@@ -397,7 +397,7 @@ section.hero .wrapper img {
 }
 @media (max-width: 1025px) {
   section.hero .wrapper img {
-    right: -15rem;
+    right: -250px;
   }
 }
 
