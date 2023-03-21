@@ -360,6 +360,9 @@ section.hero .wrapper .cont h1 {
     font-size: 3rem;
   }
 }
+section.hero .wrapper .cont p {
+  font-weight: 300;
+}
 @media (max-width: 1025px) {
   section.hero .wrapper .cont p {
     font-size: 1.2rem;
