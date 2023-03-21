@@ -35,7 +35,7 @@ html {
   display: grid;
   gap: 4rem 2rem;
 }
-@media (min-width: 64.0625rem) {
+@media (min-width: 1025px) {
   .grid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -412,8 +412,12 @@ section.hero .wrapper img {
   }
 }
 
+@media (min-width: 1025px) {
+  main.invitation {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 main.invitation p {
-  max-width: 50%;
   font-size: 1.75rem;
   line-height: 1.75;
 }
