@@ -395,6 +395,11 @@ section.hero .wrapper img {
   max-width: 55rem;
   max-height: 120vh;
 }
+@media (max-width: 1025px) {
+  section.hero .wrapper img {
+    right: -15rem;
+  }
+}
 
 section.plan .grid .grid-item {
   display: flex;
