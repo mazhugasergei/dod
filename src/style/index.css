@@ -369,6 +369,8 @@ section.hero .wrapper .cont p {
     max-width: min(25rem, 60vw);
     font-size: 1rem;
   }
+}
+@media (min-width: 1025px) {
   section.hero .wrapper .cont p:nth-child(1) {
     font-size: 2.5rem;
   }
