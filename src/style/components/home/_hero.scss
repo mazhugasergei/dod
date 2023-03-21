@@ -39,8 +39,8 @@ section.hero{
     img{
       pointer-events: none;
       position: absolute;
-      right: 20vw;
-      transform: translate(22rem, 38%);
+      right: 0;
+      transform: translateY(38%);
       z-index: -1;
       max-width: 55rem;
       max-height: 120vh;
