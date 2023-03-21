@@ -40,7 +40,7 @@ export default () => {
           </div>
           <div className="item">
             <a target="_blank" href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A.jpg">
-              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4.svg" alt="" />
+              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4hall.svg" alt="" />
             </a>
             <div className="right orange">
               <h3>Холл 4 уровень</h3>
@@ -50,7 +50,7 @@ export default () => {
           </div>
           <div className="item">
             <a target="_blank" href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A.jpg">
-              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4.svg" alt="" />
+              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4ajax.svg" alt="" />
             </a>
             <div className="right lightblue">
               <h3>Кафе «Аякс» 4 уровень</h3>
