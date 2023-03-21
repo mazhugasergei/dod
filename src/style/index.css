@@ -524,25 +524,25 @@ main.events h2 {
   text-align: center;
   margin: 7.5rem 0;
 }
-main.events .contsainer {
+main.events .container {
   display: flex;
   flex-flow: column;
   gap: 3rem;
 }
-main.events .contsainer .item {
+main.events .container .item {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(22rem, 100%), 1fr));
   gap: 0 1rem;
 }
-main.events .contsainer .item img {
+main.events .container .item img {
   display: block;
   width: 100%;
 }
-main.events .contsainer .item .right {
+main.events .container .item .right {
   position: relative;
   padding: 2rem 0;
 }
-main.events .contsainer .item .right::before {
+main.events .container .item .right::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -553,15 +553,15 @@ main.events .contsainer .item .right::before {
   height: 5rem;
   border-radius: 50%;
 }
-main.events .contsainer .item .right.lightblue::before {
+main.events .container .item .right.lightblue::before {
   background: #66B9FF;
 }
-main.events .contsainer .item .right.orange::before {
+main.events .container .item .right.orange::before {
   background: #F8493B;
 }
-main.events .contsainer .item .right.blue::before {
+main.events .container .item .right.blue::before {
   background: #3387FF;
 }
-main.events .contsainer .item .right h4 {
+main.events .container .item .right h4 {
   margin-top: 0.5rem;
 }/*# sourceMappingURL=index.css.map */
