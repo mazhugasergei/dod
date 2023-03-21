@@ -45,9 +45,9 @@ section.hero{
     }
     img{
       @media (max-width: 1025px){
-        // right: -220px;
-        left: 50%;
-        transform: translate(calc(-50% + 55px), 50%);
+        right: -200px;
+        transform: translateY(50%);
+        max-height: 110vh;
       }
       pointer-events: none;
       position: absolute;
