@@ -1,7 +1,7 @@
 const Plan = () => {
   return (
     <section className="plan wrapper" id="plan">
-      <h1>Что будет на дне открытых дверей?</h1>
+      <h1>Программа Дня открытых дверей</h1>
       <ul className="grid">
         <li className="left grid-item">
           <ul>

@@ -340,7 +340,7 @@ section.hero .wrapper {
   isolation: isolate;
   min-height: 98vh;
 }
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   section.hero .wrapper {
     padding-top: 11rem;
   }
@@ -364,7 +364,7 @@ section.hero .wrapper .cont h1 {
   font-size: 5rem;
   margin-bottom: 0.9rem;
 }
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   section.hero .wrapper .cont h1 {
     font-size: 3rem;
   }
@@ -372,7 +372,7 @@ section.hero .wrapper .cont h1 {
 section.hero .wrapper .cont p {
   font-weight: 300;
 }
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   section.hero .wrapper .cont p {
     font-size: 1.2rem;
   }
