@@ -352,7 +352,7 @@ section.hero .wrapper .cont h1, section.hero .wrapper .cont p {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.1607843137);
 }
 section.hero .wrapper .cont h1 {
-  font-size: 3.75rem;
+  font-size: 5rem;
   margin-bottom: 0.9rem;
 }
 @media (max-width: 1025px) {
@@ -389,17 +389,23 @@ section.hero .wrapper .cont p:nth-child(3) {
 section.hero .wrapper img {
   pointer-events: none;
   position: absolute;
-  right: 0;
-  transform: translateY(38%);
+  right: -80px;
+  transform: translateY(30%);
   z-index: -1;
   max-width: 880px;
-  max-height: 120vh;
+  max-height: 150vh;
 }
 @media (max-width: 1025px) {
   section.hero .wrapper img {
     left: 50%;
     transform: translate(calc(-50% + 55px), 50%);
   }
+}
+
+main.invitation p {
+  max-width: 50%;
+  font-size: 1.75rem;
+  line-height: 1.75;
 }
 
 section.plan .grid .grid-item {

@@ -27,6 +27,9 @@ export default () => {
       <Header />
       <main ref={mainRef}>
         <Hero />
+        <main className="wrapper invitation">
+          <p>Приглашаем абитуриентов и родителей! Вы сможете узнать о подготовке к поступлению в Дальневосточный федеральный университет</p>
+        </main>
         <Plan />
         <QA />
       </main>

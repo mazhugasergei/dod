@@ -21,7 +21,7 @@ section.hero{
         @media (max-width: 1025px){
           font-size: 3rem;
         }
-        font-size: 3.75rem;
+        font-size: 5rem;
         margin-bottom: 0.9rem;
       }
       p{
@@ -47,16 +47,23 @@ section.hero{
       @media (max-width: 1025px){
         // right: -220px;
         left: 50%;
-
         transform: translate(calc(-50% + 55px), 50%);
       }
       pointer-events: none;
       position: absolute;
-      right: 0;
-      transform: translateY(38%);
+      right: -80px;
+      transform: translateY(30%);
       z-index: -1;
       max-width: 880px;
-      max-height: 120vh;
+      max-height: 150vh;
     }
+  }
+}
+
+main.invitation{
+  p{
+    max-width: 50%;
+    font-size: 1.75rem;
+    line-height: 1.75;
   }
 }
