@@ -362,7 +362,7 @@ section.hero .wrapper .cont h1 {
 }
 section.hero .wrapper .cont p {
   font-family: "Unbounded", sans-serif;
-  max-width: min(35rem, 70vw);
+  max-width: min(46rem, 70vw);
   font-size: 1.75rem;
   font-weight: 300;
 }
