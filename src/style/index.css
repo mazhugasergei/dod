@@ -376,6 +376,9 @@ section.hero .wrapper .cont p:nth-child(1) {
   font-size: 2.5rem;
   font-weight: 700;
 }
+section.hero .wrapper .cont p:nth-child(3) {
+  line-height: 1.5;
+}
 section.hero .wrapper img {
   pointer-events: none;
   position: absolute;
