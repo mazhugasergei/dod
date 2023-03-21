@@ -7,9 +7,14 @@ section.hero{
     z-index: 998;
     isolation: isolate;
     min-height: 98vh;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
+    @media (max-width: 1025px){
+      padding-top: 11rem;
+    }
+    @media (min-width: 1025px){
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+    }
     .cont{
       display: flex;
       flex-flow: column;
@@ -46,7 +51,7 @@ section.hero{
     img{
       @media (max-width: 1025px){
         right: -200px;
-        transform: translateY(50%);
+        transform: translateY(-5%);
         max-height: 110vh;
       }
       pointer-events: none;

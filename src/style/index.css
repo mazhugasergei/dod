@@ -339,9 +339,18 @@ section.hero .wrapper {
   z-index: 998;
   isolation: isolate;
   min-height: 98vh;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
+}
+@media (max-width: 1025px) {
+  section.hero .wrapper {
+    padding-top: 11rem;
+  }
+}
+@media (min-width: 1025px) {
+  section.hero .wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
 }
 section.hero .wrapper .cont {
   display: flex;
@@ -398,7 +407,7 @@ section.hero .wrapper img {
 @media (max-width: 1025px) {
   section.hero .wrapper img {
     right: -200px;
-    transform: translateY(50%);
+    transform: translateY(-5%);
     max-height: 110vh;
   }
 }
