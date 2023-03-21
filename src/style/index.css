@@ -360,16 +360,18 @@ section.hero .wrapper .cont h1 {
     font-size: 3rem;
   }
 }
-section.hero .wrapper .cont p {
-  max-width: 46rem;
-  font-size: 1.75rem;
-}
 @media (max-width: 1025px) {
   section.hero .wrapper .cont p {
+    font-size: 1.2rem;
+  }
+  section.hero .wrapper .cont p:nth-child(3) {
     max-width: 25rem;
   }
 }
 @media (min-width: 1025px) {
+  section.hero .wrapper .cont p {
+    font-size: 1.75rem;
+  }
   section.hero .wrapper .cont p:nth-child(1) {
     font-size: 2.5rem;
   }
@@ -378,6 +380,7 @@ section.hero .wrapper .cont p:nth-child(1) {
   font-weight: 700;
 }
 section.hero .wrapper .cont p:nth-child(3) {
+  max-width: 46rem;
   line-height: 1.5;
 }
 section.hero .wrapper img {
@@ -492,29 +495,29 @@ section.qa ul li .answer {
   padding: 1.75rem;
 }
 
-main.events {
-  display: flex;
-  flex-flow: column;
-  gap: 3rem;
-}
 main.events h2 {
   text-align: center;
   margin: 7.5rem 0;
 }
-main.events .item {
+main.events .contsainer {
+  display: flex;
+  flex-flow: column;
+  gap: 3rem;
+}
+main.events .contsainer .item {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(22rem, 100%), 1fr));
   gap: 0 1rem;
 }
-main.events .item img {
+main.events .contsainer .item img {
   display: block;
   width: 100%;
 }
-main.events .item .right {
+main.events .contsainer .item .right {
   position: relative;
   padding: 2rem 0;
 }
-main.events .item .right::before {
+main.events .contsainer .item .right::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -525,15 +528,15 @@ main.events .item .right::before {
   height: 5rem;
   border-radius: 50%;
 }
-main.events .item .right.lightblue::before {
+main.events .contsainer .item .right.lightblue::before {
   background: #66B9FF;
 }
-main.events .item .right.orange::before {
+main.events .contsainer .item .right.orange::before {
   background: #F8493B;
 }
-main.events .item .right.blue::before {
+main.events .contsainer .item .right.blue::before {
   background: #3387FF;
 }
-main.events .item .right h4 {
+main.events .contsainer .item .right h4 {
   margin-top: 0.5rem;
 }/*# sourceMappingURL=index.css.map */
