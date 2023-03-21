@@ -361,19 +361,19 @@ section.hero .wrapper .cont h1 {
   }
 }
 section.hero .wrapper .cont p {
-  font-family: "Unbounded", sans-serif;
   max-width: min(46rem, 70vw);
   font-size: 1.75rem;
-  font-weight: 300;
 }
 @media (max-width: 1025px) {
   section.hero .wrapper .cont p {
     max-width: min(25rem, 60vw);
     font-size: 1rem;
   }
+  section.hero .wrapper .cont p:nth-child(1) {
+    font-size: 2.5rem;
+  }
 }
 section.hero .wrapper .cont p:nth-child(1) {
-  font-size: 2.5rem;
   font-weight: 700;
 }
 section.hero .wrapper .cont p:nth-child(3) {

@@ -25,16 +25,17 @@ section.hero{
         margin-bottom: 0.9rem;
       }
       p{
-        font-family: "Unbounded", sans-serif;
+        // font-family: "Unbounded", sans-serif;
         @media (max-width: 1025px){
           max-width: min(25rem, 60vw);
           font-size: 1rem;
+          &:nth-child(1){ font-size: 2.5rem; }
         }
-        &:nth-child(1){ font-size: 2.5rem; font-weight: 700; }
+        &:nth-child(1){ font-weight: 700; }
         &:nth-child(3){ line-height: 1.5; }
         max-width: min(46rem, 70vw);
         font-size: 1.75rem;
-        font-weight: 300;
+        // font-weight: 300;
       }
     }
     img{
