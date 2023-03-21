@@ -34,7 +34,7 @@ section.hero{
         }
         &:nth-child(1){ font-weight: 700; }
         &:nth-child(3){ line-height: 1.5; }
-        max-width: min(46rem, 70vw);
+        max-width: 46rem;
         font-size: 1.75rem;
         // font-weight: 300;
       }

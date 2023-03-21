@@ -361,7 +361,7 @@ section.hero .wrapper .cont h1 {
   }
 }
 section.hero .wrapper .cont p {
-  max-width: min(46rem, 70vw);
+  max-width: 46rem;
   font-size: 1.75rem;
 }
 @media (max-width: 1025px) {
