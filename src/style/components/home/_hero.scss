@@ -67,6 +67,9 @@ section.hero{
 
 main.invitation{
   p{
+    @media (max-width: 1025px){
+      font-size: 1.2rem;
+    }
     max-width: 50%;
     font-size: 1.75rem;
     line-height: 1.75;
