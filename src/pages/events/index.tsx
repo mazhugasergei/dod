@@ -19,8 +19,7 @@ export default () => {
         <div className="container">
           <h2>Корпус А</h2>
           <div className="item">
-            {/* https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/A6.jpg */}
-            <a target="_blank" href="https://dod.dvfu.ru/assets/images/floors/detailed/A6.jpg">
+            <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/A6.jpg">
               <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A6.svg" alt="" />
             </a>
             <div className="right lightblue">
@@ -30,7 +29,7 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <a target="_blank" href="https://dod.dvfu.ru/assets/images/floors/detailed/A5.jpg">
+            <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/A5.jpg">
               <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A5.svg" alt="" />
             </a>
             <div className="right blue">
@@ -40,7 +39,7 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <a target="_blank" href="https://dod.dvfu.ru/assets/images/floors/detailed/A4hall.jpg">
+            <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/A4hall.jpg">
               <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4hall.svg" alt="" />
             </a>
             <div className="right orange">
@@ -50,7 +49,7 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <a target="_blank" href="https://dod.dvfu.ru/assets/images/floors/detailed/A4ajax.jpg">
+            <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/A4ajax.jpg">
               <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4ajax.svg" alt="" />
             </a>
             <div className="right lightblue">
@@ -66,7 +65,7 @@ export default () => {
         <div className="container">
           <h2>Корпус В</h2>
           <div className="item">
-            <a target="_blank" href="https://dod.dvfu.ru/assets/images/floors/detailed/B6blue.jpg">
+            <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/B6blue.jpg">
               <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6blue.svg" alt="" />
             </a>
             <div className="right blue">
@@ -80,7 +79,7 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <a target="_blank" href="https://dod.dvfu.ru/assets/images/floors/detailed/B6middle.jpg">
+            <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/B6middle.jpg">
               <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6middle.svg" alt="" />
             </a>
             <div className="right lightblue">
@@ -94,7 +93,7 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <a target="_blank" href="https://dod.dvfu.ru/assets/images/floors/detailed/B6hall.jpg">
+            <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/B6hall.jpg">
               <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6hall.svg" alt="" />
             </a>
             <div className="right orange">
