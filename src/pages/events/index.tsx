@@ -75,25 +75,11 @@ export default () => {
         <div className="container">
           <h2>Корпус В</h2>
           <div className="item">
-            <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/B6blue.jpg">
-              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6blue.svg" alt="" />
+            <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/B6hall.jpg">
+              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6hall.svg" alt="" />
             </a>
-            <div className="right blue">
-              <h3>Зал «Сопка» 7 уровень</h3>
-              <h4>9:30 - 10:30</h4>
-              <p>Встреча с директором Института наук о жизни и биомедицины</p>
-              <h4>12:30 - 14:00</h4>
-              <p>Встреча с директором Передовой инженерной школы</p>
-              <h4>14:00 - 15:30</h4>
-              <p>Встреча с директором Школы педагогики</p>
-            </div>
-          </div>
-          <div className="item">
-            <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/B6blue.jpg">
-              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6blue.svg" alt="" />
-            </a>
-            <div className="right blue">
-              <h3>6 уровень</h3>
+            <div className="right orange">
+              <h3>Холл 6 уровень</h3>
               <h4>9:00 - 16:00</h4>
               <p>Ресепшен. Консультации по Дню открытых дверей</p>
               <h4>9:00 - 16:00</h4>
@@ -130,7 +116,7 @@ export default () => {
           </div>
           <div className="item">
             <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/B6hall.jpg">
-              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6hall.svg" alt="" />
+              {/* <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6hall.svg" alt="" /> */}
             </a>
             <div className="right orange">
               <h3>Зал «Колонный» 6 уровень</h3>
@@ -139,8 +125,22 @@ export default () => {
             </div>
           </div>
           <div className="item">
+            <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/B6blue.jpg">
+              {/* <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6blue.svg" alt="" /> */}
+            </a>
+            <div className="right orange">
+              <h3>Зал «Сопка» 7 уровень</h3>
+              <h4>9:30 - 10:30</h4>
+              <p>Встреча с директором Института наук о жизни и биомедицины</p>
+              <h4>12:30 - 14:00</h4>
+              <p>Встреча с директором Передовой инженерной школы</p>
+              <h4>14:00 - 15:30</h4>
+              <p>Встреча с директором Школы педагогики</p>
+            </div>
+          </div>
+          <div className="item">
             <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/B6hall.jpg">
-              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6hall.svg" alt="" />
+              {/* <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6hall.svg" alt="" /> */}
             </a>
             <div className="right orange">
               <h3>Зал «Морской» 5 уровень</h3>
