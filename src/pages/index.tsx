@@ -6,7 +6,7 @@ import { useEffect, useRef } from "react"
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Hero from "@/components/home/Hero"
-import Intro from '@/components/home/intro'
+import Intro from '@/components/home/Intro'
 import Plan from "@/components/home/Plan"
 import QA from "@/components/home/QA"
 
