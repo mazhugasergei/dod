@@ -6,6 +6,7 @@ import { useEffect, useRef } from "react"
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Hero from "@/components/home/Hero"
+import Intro from '@/components/home/intro'
 import Plan from "@/components/home/Plan"
 import QA from "@/components/home/QA"
 
@@ -27,9 +28,7 @@ export default () => {
       <Header />
       <main ref={mainRef}>
         <Hero />
-        <main className="wrapper grid invitation">
-          <p>Приглашаем абитуриентов и родителей! Вы сможете узнать о подготовке к поступлению в Дальневосточный федеральный университет</p>
-        </main>
+        <Intro />
         <Plan />
         <QA />
       </main>

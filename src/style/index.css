@@ -413,16 +413,16 @@ section.hero .wrapper img {
 }
 
 @media (min-width: 1025px) {
-  main.invitation {
+  section.intro {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-main.invitation p {
-  font-size: 1.75rem;
+section.intro p {
+  font-size: 1.5rem;
   line-height: 1.75;
 }
 @media (max-width: 1025px) {
-  main.invitation p {
+  section.intro p {
     font-size: 1.2rem;
   }
 }
