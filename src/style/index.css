@@ -412,6 +412,9 @@ section.hero .wrapper img {
   }
 }
 
+section.intro {
+  align-items: center;
+}
 @media (min-width: 1025px) {
   section.intro {
     grid-template-columns: repeat(2, 1fr);
@@ -425,6 +428,10 @@ section.intro p {
   section.intro p {
     font-size: 1.2rem;
   }
+}
+section.intro img {
+  display: block;
+  width: 100%;
 }
 
 section.plan .grid .grid-item {
