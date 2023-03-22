@@ -19,8 +19,8 @@ export default () => {
         <div className="container">
           <h2>Корпус А</h2>
           <div className="item">
-            <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/A6.jpg">
-              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A6.svg" alt="" />
+            <a href="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/detailed/A6hall.jpg">
+              <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A6hall.svg" alt="" />
             </a>
             <div className="right lightblue">
               <h3>Холл 6 уровень</h3>
