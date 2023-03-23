@@ -26,7 +26,7 @@ html {
 
 .wrapper {
   max-width: var(--wrapper-max-width);
-  padding: 5rem var(--wrapper-padding);
+  padding: 2rem var(--wrapper-padding);
   margin-left: auto;
   margin-right: auto;
 }
@@ -292,6 +292,9 @@ footer .grid li.center .item.flex-cont .links a {
 }
 footer .grid li.center .item.flex-cont .links a.vk {
   background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/vk.svg");
+}
+footer .grid li.center .item.flex-cont .links a.tg {
+  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/tg.svg");
 }
 footer .grid li.center .item.flex-cont .links a.ok {
   background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/ok.svg");

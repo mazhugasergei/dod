@@ -27,6 +27,7 @@ const Footer = () => {
                 <div className="title">Социальные сети</div>
                 <div className="links">
                   <a target="_blank" href="https://vk.com/fefudvfu" className="vk" />
+                  <a target="_blank" href="https://t.me/fefudvfu" className="tg" />
                   <a target="_blank" href="https://ok.ru/group/68737064632375" className="ok" />
                   <a target="_blank" href="https://rutube.ru/channel/23787464/" className="rt" />
                 </div>
