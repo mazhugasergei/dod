@@ -536,14 +536,17 @@ section.qa ul li .answer {
   padding: 1.75rem;
 }
 
+main.events h1 {
+  margin: 0;
+}
 main.events h2 {
   text-align: center;
-  margin: 7.5rem 0;
+  margin: 4rem 0;
 }
 main.events .container {
   display: flex;
   flex-flow: column;
-  gap: 3rem;
+  gap: 2rem;
 }
 main.events .container .item {
   display: grid;

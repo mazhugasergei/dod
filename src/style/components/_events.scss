@@ -1,12 +1,15 @@
 main.events{
+  h1{
+    margin: 0;
+  }
   h2{
     text-align: center;
-    margin: 7.5rem 0;
+    margin: 4rem 0;
   }
   .container{
     display: flex;
     flex-flow: column;
-    gap: 3rem;
+    gap: 2rem;
     .item{
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(min(22rem, 100%), 1fr));
