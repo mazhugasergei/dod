@@ -16,8 +16,8 @@ const Plan = () => {
           <div>различных мероприятий!</div>
         </li>
         <li className="right grid-item">
-          <div>Полную программу можно посмотреть по ссылке ниже</div>
           <a href="/events" className="btn">Программа мероприятий</a>
+        <div><a href="" className="btn">Запись на экскурсии</a></div>
         </li>
       </ul>
     </section>

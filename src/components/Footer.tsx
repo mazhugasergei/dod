@@ -12,15 +12,15 @@ const Footer = () => {
           <li className="center">
             <div className="item">
               <div className="title">Адрес</div>
-              <p>690922, Приморский край, г.&nbsp;Владивосток, о.&nbsp;Русский, п.&nbsp;Аякс,&nbsp;10</p>
+              <p>690922, Приморский край, г.&nbsp;Владивосток, о.&nbsp;Русский, п.&nbsp;Аякс,&nbsp;10, Кампус ДВФУ, корп.С, уровень 6, С 608</p>
             </div>
             <div className="item">
               <div className="title">Телефон</div>
-              <a href="tel:8(423)265-24-29">8 (423) 265-24-29</a>
+              <a href="tel:8-800-555-0-888">8-800-555-0-888</a>
             </div>
             <div className="item">
               <div className="title">Почта</div>
-              <a className="email" href="mailto:rectorat@dvfu.ru">rectorat@dvfu.ru</a>
+              <a className="email" href="mailto:priem@dvfu.ru">priem@dvfu.ru</a>
             </div>
             <div className="item flex-cont">
               <div className="item">
@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
             <div className="item">
               <div className="title">Режим работы</div>
-              <p>Пн-Пт: 09:00-18:00</p>
+              <p>Пн-Пт: 10:00-17:00</p>
               <p>Сб-Вс: выходные</p>
             </div>
           </li>
