@@ -16,11 +16,11 @@ const Footer = () => {
             </div>
             <div className="item">
               <div className="title">Телефон</div>
-              <a href="tel:8(423)265-24-29">8 (423) 265-24-29</a>
+              <a href="tel:8-800-555-0-888">8-800-555-0-888</a>
             </div>
             <div className="item">
               <div className="title">Почта</div>
-              <a className="email" href="mailto:rectorat@dvfu.ru">rectorat@dvfu.ru</a>
+              <a className="email" href="mailto:priem@dvfu.ru">priem@dvfu.ru</a>
             </div>
             <div className="item flex-cont">
               <div className="item">
