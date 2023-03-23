@@ -12,7 +12,7 @@ const Footer = () => {
           <li className="center">
             <div className="item">
               <div className="title">Адрес</div>
-              <p>690922, Приморский край, г.&nbsp;Владивосток, о.&nbsp;Русский, п.&nbsp;Аякс,&nbsp;10</p>
+              <p>690922, Приморский край, г.&nbsp;Владивосток, о.&nbsp;Русский, п.&nbsp;Аякс,&nbsp;10,&nbsp;Кампус&nbsp;ДВФУ,&nbsp;корп.&nbsp;С,&nbsp;уровень&nbsp;6,&nbsp;кабинет&nbsp;С&nbsp;608</p>
             </div>
             <div className="item">
               <div className="title">Телефон</div>
