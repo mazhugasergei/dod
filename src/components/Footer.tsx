@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
             <div className="item">
               <div className="title">Режим работы</div>
-              <p>Пн-Пт: 09:00-18:00</p>
+              <p>Пн-Пт: 10:00-17:00</p>
               <p>Сб-Вс: выходные</p>
             </div>
           </li>
