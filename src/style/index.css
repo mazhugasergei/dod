@@ -607,5 +607,5 @@ main.excursions .item::before {
   border-radius: 50%;
 }
 main.excursions .item h4 {
-  margin-top: 0.5rem;
+  margin: 0.25rem 0;
 }/*# sourceMappingURL=index.css.map */
