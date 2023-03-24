@@ -590,4 +590,22 @@ main.events .container .item .right.blue::before {
 }
 main.events .container .item .right h4 {
   margin-top: 0.5rem;
+}
+
+main.excursions .item {
+  padding: 1rem 0;
+}
+main.excursions .item::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 2rem;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+main.excursions .item h4 {
+  margin-top: 0.5rem;
 }/*# sourceMappingURL=index.css.map */
