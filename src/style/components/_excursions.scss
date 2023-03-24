@@ -15,5 +15,9 @@ main.excursions{
     h4{
       margin: .25rem 0;
     }
+    ul{
+      list-style: unset;
+      padding-left: 1rem;
+    }
   }
 }

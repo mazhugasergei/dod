@@ -609,6 +609,10 @@ main.excursions .item::before {
 main.excursions .item h4 {
   margin: 0.25rem 0;
 }
+main.excursions .item ul {
+  list-style: unset;
+  padding-left: 1rem;
+}
 
 hr {
   border: 1px solid #dfdfdf;
