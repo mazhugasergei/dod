@@ -10,7 +10,7 @@ const Excursions = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="wrapper excursions">
-        <p>Раздел находится в разработке</p>
+        <p>Уважаемые посетители сайта! Информация об экскурсиях будет опубликована в блийжайшее время. Спасибо за понимание!</p>
       </main>
     </>
   )
