@@ -608,4 +608,8 @@ main.excursions .item::before {
 }
 main.excursions .item h4 {
   margin: 0.25rem 0;
+}
+
+hr {
+  border: 1px solid #dfdfdf;
 }/*# sourceMappingURL=index.css.map */
