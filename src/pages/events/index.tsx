@@ -102,7 +102,7 @@ export default () => {
           </div>
           <div className="item">
             <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6column.svg" alt="" />
-            <div className="right orange">
+            <div className="right lightblue">
               <h3>Зал «Колонный» 6 уровень</h3>
               <h4>10:00 - 11:00</h4>
               <p>Встреча с директором Института наукоемких технологий и передовых материалов</p>
@@ -112,7 +112,7 @@ export default () => {
           </div>
           <div className="item">
             <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B7.svg" alt="" />
-            <div className="right orange">
+            <div className="right lightblue">
               <h3>Зал «Сопка» 7 уровень</h3>
               <h4>10:00 - 11:00</h4>
               <p>Встреча с директором Института наук о жизни и биомедицины</p>
@@ -124,7 +124,7 @@ export default () => {
           </div>
           <div className="item">
             <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B5marine.svg" alt="" />
-            <div className="right orange">
+            <div className="right lightblue">
               <h3>Зал «Морской» 5 уровень</h3>
               <h4>10:00 - 11:00</h4>
               <p>Встреча с директором Школы медицины</p>
