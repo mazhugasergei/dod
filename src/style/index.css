@@ -590,4 +590,33 @@ main.events .container .item .right.blue::before {
 }
 main.events .container .item .right h4 {
   margin-top: 0.5rem;
+}
+
+main.excursions .container {
+  padding-top: 1rem;
+}
+main.excursions .container .item {
+  padding: 1rem 0;
+}
+main.excursions .container .item::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 2rem;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+main.excursions .container .item h4 {
+  margin: 0.25rem 0;
+}
+main.excursions .container .item ul {
+  list-style: unset;
+  padding-left: 1rem;
+}
+
+hr {
+  border: 1px solid #dfdfdf;
 }/*# sourceMappingURL=index.css.map */
