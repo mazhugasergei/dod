@@ -103,7 +103,6 @@ header .wrapper .logo {
   z-index: 1000;
   width: 8rem;
   height: 8rem;
-  background: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/logo.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -222,18 +221,6 @@ header .wrapper nav ul:nth-child(3) li a {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-}
-header .wrapper nav ul:nth-child(3) li a.vk {
-  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/vk.svg");
-}
-header .wrapper nav ul:nth-child(3) li a.tg {
-  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/tg.svg");
-}
-header .wrapper nav ul:nth-child(3) li a.ok {
-  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/ok.svg");
-}
-header .wrapper nav ul:nth-child(3) li a.rt {
-  background-image: url("https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/rt.svg");
 }
 
 footer {
@@ -543,32 +530,32 @@ section.qa ul li .answer {
   padding: 1.75rem;
 }
 
-main.events h1 {
+section.events h1 {
   margin: 0;
 }
-main.events h2 {
+section.events h2 {
   text-align: center;
   margin: 4rem 0;
 }
-main.events .container {
+section.events .container {
   display: flex;
   flex-flow: column;
   gap: 2rem;
 }
-main.events .container .item {
+section.events .container .item {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(22rem, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
   gap: 0 1rem;
 }
-main.events .container .item img {
+section.events .container .item img {
   display: block;
   width: 100%;
 }
-main.events .container .item .right {
+section.events .container .item .right {
   position: relative;
   padding: 2rem 0;
 }
-main.events .container .item .right::before {
+section.events .container .item .right::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -579,20 +566,42 @@ main.events .container .item .right::before {
   height: 5rem;
   border-radius: 50%;
 }
-main.events .container .item .right.lightblue::before {
+section.events .container .item .right.lightblue::before {
   background: #66B9FF;
 }
-main.events .container .item .right.blue::before {
+section.events .container .item .right.blue::before {
   background: #3387FF;
 }
-main.events .container .item .right.darkblue::before {
+section.events .container .item .right.darkblue::before {
   background: #1D0FB1;
 }
-main.events .container .item .right.orange::before {
+section.events .container .item .right.orange::before {
   background: #FB493B;
 }
-main.events .container .item .right h4 {
+section.events .container .item .right h4 {
   margin-top: 0.5rem;
+}
+section.events .container .item .right .flex {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0;
+}
+section.events .container .item .right h6 {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 1.3rem;
+  height: 1.3rem;
+  border: 0.0625rem solid #1D0FB1;
+  border-radius: 50%;
+  color: #fff;
+}
+section.events .container .item .right h6.lightblue {
+  background: #64AFDF;
+}
+section.events .container .item .right h6.orange {
+  background: #FB493B;
 }
 
 section.excursions .container {
