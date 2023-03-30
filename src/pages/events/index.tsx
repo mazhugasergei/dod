@@ -23,13 +23,13 @@ export default () => {
       const textLength = icon.innerText.length
       switch(textLength){
         case 1:
-          icon.style.fontSize = ".7rem"
+          icon.style.fontSize = ".65rem"
           break
         case 2:
-          icon.style.fontSize = ".5rem"
+          icon.style.fontSize = ".45rem"
           break
         case 3:
-          icon.style.fontSize = ".4rem"
+          icon.style.fontSize = ".3rem"
           break
       }
     })
@@ -71,23 +71,29 @@ export default () => {
                 <h3>Холл 5 уровень</h3>
                 <h4>10:00 - 16:00</h4>
                 <div className="flex">
-                  <h6 className="orange">пк</h6>
+                  <h6 className="orange">ПК</h6>
                   <p>Приемная комиссия. Консультации по поступлению</p>
                 </div>
                 <h4>10:00 - 16:00</h4>
                 <div className="flex">
-                  <h6 className="orange">дог</h6>
+                  <h6 className="orange">ДОГ</h6>
                   <p>Договорной отдел. Консультации по платному обучению</p>
                 </div>
                 <h4>10:00 - 16:00</h4>
                 <div className="flex">
-                  <h6 className="orange">дпо</h6>
+                  <h6 className="orange">ДПО</h6>
                   <p>Дополнительное профессиональное обучение</p>
                 </div>
                 <h4>10:00 - 16:00</h4>
+                <div className="flex">
+                  <h6 className="orange">МО</h6>
                 <p>Международные программы и стажировки</p>
+                </div>
                 <h4>10:00 - 16:00</h4>
+                <div className="flex">
+                  <h6 className="orange">Б</h6>
                 <p>Представители банков. Образовательные кредиты</p>
+                </div>
               </div>
             </div>
             <div className="item">
