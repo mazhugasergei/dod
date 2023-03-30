@@ -53,7 +53,7 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4ajax.svg" alt="" />
+            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4cafe.svg" alt="" />
             <div className="right lightblue">
               <h3>Кафе «Аякс» 4 уровень</h3>
               <h4>10:00 - 10:40</h4>
