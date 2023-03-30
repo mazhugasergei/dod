@@ -2,6 +2,9 @@ main.excursions{
   .container{
     padding-top: 1rem;
     .item{
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
       padding: 1rem 0;
       &::before{
         content: '';
@@ -20,6 +23,9 @@ main.excursions{
       ul{
         list-style: unset;
         padding-left: 1rem;
+      }
+      .btn{
+        margin-top: 1rem;
       }
     }
   }

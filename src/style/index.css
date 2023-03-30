@@ -596,6 +596,9 @@ main.excursions .container {
   padding-top: 1rem;
 }
 main.excursions .container .item {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
   padding: 1rem 0;
 }
 main.excursions .container .item::before {
@@ -615,6 +618,9 @@ main.excursions .container .item h4 {
 main.excursions .container .item ul {
   list-style: unset;
   padding-left: 1rem;
+}
+main.excursions .container .item .btn {
+  margin-top: 1rem;
 }
 
 hr {
