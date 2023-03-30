@@ -7,6 +7,7 @@ import Footer from '@/components/Footer'
 import A6_hall from "@/assets/images/floors/A6_hall.svg"
 import A5_hall from "@/assets/images/floors/A5_hall.svg"
 import A4_hall from "@/assets/images/floors/A4_hall.svg"
+import A4_cafe from "@/assets/images/floors/A4_cafe.svg"
 import B6_hall from "@/assets/images/floors/B6_hall.svg"
 import B6_blue from "@/assets/images/floors/B6_blue.svg"
 import B6_middle from "@/assets/images/floors/B6_middle.svg"
@@ -63,7 +64,7 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4cafe.svg" alt="" />
+            <img src={A4_cafe.src} alt="" />
             <div className="right lightblue">
               <h3>Кафе «Аякс» 4 уровень</h3>
               <h4>10:00 - 10:40</h4>
