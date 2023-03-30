@@ -3,6 +3,16 @@ import Head from 'next/head'
 // components
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+// images
+import A6_hall from "@/assets/images/floors/A6_hall.svg"
+import A5_hall from "@/assets/images/floors/A5_hall.svg"
+import A4_hall from "@/assets/images/floors/A4_hall.svg"
+import B6_hall from "@/assets/images/floors/B6_hall.svg"
+import B6_blue from "@/assets/images/floors/B6_blue.svg"
+import B6_middle from "@/assets/images/floors/B6_middle.svg"
+import B6_column from "@/assets/images/floors/B6_column.svg"
+import B7_hill from "@/assets/images/floors/B7_hill.svg"
+import B5_marine from "@/assets/images/floors/B5_marine.svg"
 
 export default () => {
   return (
@@ -19,7 +29,7 @@ export default () => {
         <div className="container">
           <h2>Корпус А</h2>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A6.svg" alt="" />
+            <img src={A6_hall.src} alt="" />
             <div className="right lightblue">
               <h3>Холл 6 уровень</h3>
               <h4>9:00 - 16:00</h4>
@@ -29,7 +39,7 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A5.svg" alt="" />
+            <img src={A5_hall.src} alt="" />
             <div className="right blue">
               <h3>Холл 5 уровень</h3>
               <h4>10:00 - 16:00</h4>
@@ -45,7 +55,7 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/A4hall.svg" alt="" />
+            <img src={A4_hall.src} alt="" />
             <div className="right orange">
               <h3>Холл 4 уровень</h3>
               <h4>10:00 - 16:00</h4>
@@ -62,7 +72,7 @@ export default () => {
               <p>Русский язык: ЕГЭ (ГИА-11). Как писать сочинение по русскому языку. Консультация для школьников от председателя предметной комиссии ЕГЭ по русскому языку Панченко Татьяны Федоровны.</p>
               <h4>14:00 - 15:30</h4>
               <p>Встреча со студентами «Как пережить ЕГЭ? Личный опыт». Студенты ДВФУ разных курсов и направлений расскажут о выборе профессии, о том, как готовиться к экзаменам и не выгореть, о поддержке, ожиданиях и результатах.</p>   
-<p>Модератор: Черепнина Валерия, студентка 1 курса направления «Конфликтология», старший наставник.</p>
+              <p>Модератор: Черепнина Валерия, студентка 1 курса направления «Конфликтология», старший наставник.</p>
             </div>
           </div>
         </div>
@@ -70,7 +80,7 @@ export default () => {
         <div className="container">
           <h2>Корпус В</h2>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6hall.svg" alt="" />
+            <img src={B6_hall.src} alt="" />
             <div className="right orange">
               <h3>Холл 6 уровень</h3>
               <h4>9:00 - 16:00</h4>
@@ -80,7 +90,7 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6blue.svg" alt="" />
+            <img src={B6_blue.src} alt="" />
             <div className="right blue">
               <h3>Зал «Синий» 6 уровень</h3>
               <h4>11:00 - 13:00</h4>
@@ -92,7 +102,7 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6middle.svg" alt="" />
+            <img src={B6_middle.src} alt="" />
             <div className="right lightblue">
               <h3>Зал «Средний» 6 уровень</h3>
               <h4>10:00 - 11:00</h4>
@@ -104,7 +114,7 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B6column.svg" alt="" />
+            <img src={B6_column.src} alt="" />
             <div className="right lightblue">
               <h3>Зал «Колонный» 6 уровень</h3>
               <h4>10:00 - 11:00</h4>
@@ -114,7 +124,7 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B7.svg" alt="" />
+            <img src={B7_hill.src} alt="" />
             <div className="right lightblue">
               <h3>Зал «Сопка» 7 уровень</h3>
               <h4>10:00 - 11:00</h4>
@@ -126,7 +136,7 @@ export default () => {
             </div>
           </div>
           <div className="item">
-            <img src="https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/floors/B5marine.svg" alt="" />
+            <img src={B5_marine.src} alt="" />
             <div className="right lightblue">
               <h3>Зал «Морской» 5 уровень</h3>
               <h4>10:00 - 11:00</h4>
