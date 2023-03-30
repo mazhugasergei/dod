@@ -1,3 +1,10 @@
+// images
+import VK from "@/assets/images/logos/vk.svg"
+import TG from "@/assets/images/logos/tg.svg"
+import OK from "@/assets/images/logos/ok.svg"
+import RT from "@/assets/images/logos/rt.svg"
+import FEFU from "@/assets/images/logos/fefu.svg"
+
 const Footer = () => {
   return (
     <footer id="contact">
@@ -26,16 +33,16 @@ const Footer = () => {
               <div className="item">
                 <div className="title">Социальные сети</div>
                 <div className="links">
-                  <a target="_blank" href="https://vk.com/fefudvfu" className="vk" />
-                  <a target="_blank" href="https://t.me/fefudvfu" className="tg" />
-                  <a target="_blank" href="https://ok.ru/group/68737064632375" className="ok" />
-                  <a target="_blank" href="https://rutube.ru/channel/23787464/" className="rt" />
+                  <a target="_blank" style={{ backgroundImage: `url("${VK.src}")` }} href="https://vk.com/fefudvfu" />
+                  <a target="_blank" style={{ backgroundImage: `url("${TG.src}")` }} href="https://t.me/fefudvfu" />
+                  <a target="_blank" style={{ backgroundImage: `url("${OK.src}")` }} href="https://ok.ru/group/68737064632375" />
+                  <a target="_blank" style={{ backgroundImage: `url("${RT.src}")` }} href="https://rutube.ru/channel/23787464/" />
                 </div>
               </div>
               <div className="item">
                 <div className="title">Поступление</div>
                 <div className="links">
-                  <a target="_blank" href="https://www.dvfu.ru/admission/" className="ad" />
+                  <a target="_blank" style={{ backgroundImage: `url("${FEFU.src}")` }} href="https://www.dvfu.ru/admission/" className="ad" />
                 </div>
               </div>
             </div>

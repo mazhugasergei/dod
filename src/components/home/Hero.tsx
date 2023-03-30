@@ -1,3 +1,6 @@
+// images
+import Fox from "@/assets/images/vlad.png"
+
 const Hero = () => {
   return (
     <section className="hero">
@@ -6,7 +9,7 @@ const Hero = () => {
           <p>1 апреля 2023</p>
           <h1>День<br/>открытых<br/>дверей</h1>
         </div>
-        <img src="https://github.com/markuswedler/dod/blob/main/public/assets/images/vlad.png?raw=true" alt="" />
+        <img src={Fox.src} alt="" />
       </div>
     </section>
   )

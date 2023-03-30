@@ -23,7 +23,6 @@ header{
       z-index: 1000;
       width: 8rem;
       height: 8rem;
-      background: url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/logo.svg');
       background-size: contain;
       background-position: center;
       background-repeat: no-repeat;
@@ -138,10 +137,6 @@ header{
               background-size: contain;
               background-position: center;
               background-repeat: no-repeat;
-              &.vk{ background-image: url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/vk.svg'); }
-              &.tg{ background-image: url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/tg.svg'); }
-              &.ok{ background-image: url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/ok.svg'); }
-              &.rt{ background-image: url('https://raw.githubusercontent.com/markuswedler/dod/main/public/assets/images/logos/rt.svg'); }
             }
           }
         }
