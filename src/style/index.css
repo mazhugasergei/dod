@@ -592,16 +592,16 @@ main.events .container .item .right h4 {
   margin-top: 0.5rem;
 }
 
-main.excursions .container {
+section.excursions .container {
   padding-top: 1rem;
 }
-main.excursions .container .item {
+section.excursions .container .item {
   display: flex;
   flex-flow: column;
   align-items: flex-start;
   padding: 1rem 0;
 }
-main.excursions .container .item::before {
+section.excursions .container .item::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -612,17 +612,17 @@ main.excursions .container .item::before {
   height: 5rem;
   border-radius: 50%;
 }
-main.excursions .container .item h3 {
+section.excursions .container .item h3 {
   margin-bottom: 0.25rem;
 }
-main.excursions .container .item p {
+section.excursions .container .item p {
   margin-top: 0.25rem;
 }
-main.excursions .container .item ul {
+section.excursions .container .item ul {
   list-style: unset;
   padding-left: 1rem;
 }
-main.excursions .container .item .btn {
+section.excursions .container .item .btn {
   margin-top: 1rem;
 }
 
