@@ -1,4 +1,5 @@
 // images
+import Tour from "@/assets/images/logos/3D_Tour.jpg"
 import VK from "@/assets/images/logos/vk.svg"
 import TG from "@/assets/images/logos/tg.svg"
 import OK from "@/assets/images/logos/ok.svg"
@@ -53,7 +54,7 @@ const Footer = () => {
             </div>
           </li>
           <li className="right">
-            <a target="_blank" href="https://kraizemli.ru/vtour/dvfu/index.php">3D-тур по кампусу</a>
+            <a target="_blank" style={{ backgroundImage: `url("${Tour.src}")` }} href="https://kraizemli.ru/vtour/dvfu/index.php">3D-тур по кампусу</a>
           </li>
         </ul>
       </div>
