@@ -612,8 +612,11 @@ main.excursions .container .item::before {
   height: 5rem;
   border-radius: 50%;
 }
-main.excursions .container .item h4 {
-  margin: 0.25rem 0;
+main.excursions .container .item h3 {
+  margin-bottom: 0.25rem;
+}
+main.excursions .container .item p {
+  margin-top: 0.25rem;
 }
 main.excursions .container .item ul {
   list-style: unset;
