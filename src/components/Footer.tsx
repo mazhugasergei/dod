@@ -1,5 +1,5 @@
 // images
-import Tour from "@/assets/images/logos/3D_Tour.jpg"
+import Tour from "@/assets/images/3D_Tour.jpg"
 import VK from "@/assets/images/logos/vk.svg"
 import TG from "@/assets/images/logos/tg.svg"
 import OK from "@/assets/images/logos/ok.svg"
