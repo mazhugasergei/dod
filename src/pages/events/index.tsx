@@ -91,7 +91,7 @@ export default () => {
           </div>
           <div className="item">
             <img src={B6_blue.src} alt="" />
-            <div className="right blue">
+            <div className="right darkblue">
               <h3>Зал «Синий» 6 уровень</h3>
               <h4>11:00 - 13:00</h4>
               <p>Открытие Дня открытых дверей. Пленарная дискуссия «Как поступить в лучший университет на Дальнем Востоке?»</p>
@@ -103,7 +103,7 @@ export default () => {
           </div>
           <div className="item">
             <img src={B6_middle.src} alt="" />
-            <div className="right lightblue">
+            <div className="right blue">
               <h3>Зал «Средний» 6 уровень</h3>
               <h4>10:00 - 11:00</h4>
               <p>Встреча с директором Школы искусств и гуманитарных наук</p>
@@ -137,7 +137,7 @@ export default () => {
           </div>
           <div className="item">
             <img src={B5_marine.src} alt="" />
-            <div className="right lightblue">
+            <div className="right blue">
               <h3>Зал «Морской» 5 уровень</h3>
               <h4>10:00 - 11:00</h4>
               <p>Встреча с директором Школы медицины</p>

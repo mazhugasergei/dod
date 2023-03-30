@@ -582,11 +582,14 @@ main.events .container .item .right::before {
 main.events .container .item .right.lightblue::before {
   background: #66B9FF;
 }
-main.events .container .item .right.orange::before {
-  background: #F8493B;
-}
 main.events .container .item .right.blue::before {
   background: #3387FF;
+}
+main.events .container .item .right.darkblue::before {
+  background: #1D0FB1;
+}
+main.events .container .item .right.orange::before {
+  background: #FB493B;
 }
 main.events .container .item .right h4 {
   margin-top: 0.5rem;

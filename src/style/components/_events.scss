@@ -33,8 +33,9 @@ main.events{
           border-radius: 50%;
         }
         &.lightblue::before{ background: #66B9FF; }
-        &.orange::before{ background: #F8493B; }
         &.blue::before{ background: #3387FF; }
+        &.darkblue::before{ background: #1D0FB1; }
+        &.orange::before{ background: #FB493B; }
         h4{
           margin-top: .5rem;
         }
