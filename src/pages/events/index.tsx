@@ -39,7 +39,7 @@ export default () => {
     <>
       <Head>
         <title>День открытых дверей ДВФУ</title>
-        <meta name="description" content="1 апреля Дальневосточный федеральный университет в очном формате проводит День открытых дверей. Приглашаем абитуриентов и родителей!" />
+        <meta name="description" content="30 марта Дальневосточный федеральный университет в очном формате проводит День открытых дверей. Приглашаем абитуриентов и родителей!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
