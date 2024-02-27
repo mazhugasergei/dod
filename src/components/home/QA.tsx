@@ -1,5 +1,6 @@
 // react
 import { useState } from "react"
+import Parser from 'html-react-parser';
 
 const QA = () => {
   const questions = [
@@ -34,7 +35,7 @@ const QA = () => {
                 { question }
                 <div className="sign"/>
               </div>
-              <div className="answer">{ answers[i] }</div>
+              <div className="answer">{ Parser(answers[i]) }</div>
             </li>
         )) }
       </ul>
