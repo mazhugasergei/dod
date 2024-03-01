@@ -16,8 +16,9 @@ const Plan = () => {
           <div>различных мероприятий!</div>
         </li>
         <li className="right grid-item">
-          <a href="/events" className="btn">Программа мероприятий</a>
-          <a href="/excursions" className="btn">Экскурсии и мастер-классы</a>
+          <a href="https://forms.yandex.ru/cloud/65dc6f4cc417f30452f555e8/" className="btn" target="_blank">Размещение на День открытых дверей 2024 г.</a>
+          {/*<a href="/events" className="btn">Программа мероприятий</a>*/}
+          {/*<a href="/excursions" className="btn">Экскурсии и мастер-классы</a>*/}
         </li>
       </ul>
     </section>
