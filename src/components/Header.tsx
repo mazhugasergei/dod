@@ -38,8 +38,8 @@ const Header = () => {
             <li><a href="#contact" onClick={()=>{setMenu(false)}}>Контакты</a></li>
           </ul>
           <ul>
-            <li><a target="_blank" style={{ backgroundImage: `url("${VK.src}")` }} href="https://vk.com/fefudvfu" /></li>
-            <li><a target="_blank" style={{ backgroundImage: `url("${TG.src}")` }} href="https://t.me/fefudvfu" /></li>
+            <li><a target="_blank" style={{ backgroundImage: `url("${VK.src}")` }} href="https://vk.com/tvoidvfu" /></li>
+            <li><a target="_blank" style={{ backgroundImage: `url("${TG.src}")` }} href="https://t.me/tvoidvfu" /></li>
             <li><a target="_blank" style={{ backgroundImage: `url("${OK.src}")` }} href="https://ok.ru/group/68737064632375" /></li>
             <li><a target="_blank" style={{ backgroundImage: `url("${RT.src}")` }} href="https://rutube.ru/channel/23787464/" /></li>
           </ul>
