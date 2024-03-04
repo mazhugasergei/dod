@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
             <div className="item">
               <div className="title">Телефон</div>
-              <a href="tel:8-800-555-0-888">8-800-555-0-888</a>
+              <a href="tel:8-800-555-0-888">8-800-550-38-38</a>
             </div>
             <div className="item">
               <div className="title">Почта</div>
@@ -34,8 +34,8 @@ const Footer = () => {
               <div className="item">
                 <div className="title">Социальные сети</div>
                 <div className="links">
-                  <a target="_blank" style={{ backgroundImage: `url("${VK.src}")` }} href="https://vk.com/fefudvfu" />
-                  <a target="_blank" style={{ backgroundImage: `url("${TG.src}")` }} href="https://t.me/fefudvfu" />
+                  <a target="_blank" style={{ backgroundImage: `url("${VK.src}")` }} href="https://vk.com/tvoidvfu" />
+                  <a target="_blank" style={{ backgroundImage: `url("${TG.src}")` }} href="https://t.me/tvoidvfu" />
                   <a target="_blank" style={{ backgroundImage: `url("${OK.src}")` }} href="https://ok.ru/group/68737064632375" />
                   <a target="_blank" style={{ backgroundImage: `url("${RT.src}")` }} href="https://rutube.ru/channel/23787464/" />
                 </div>
