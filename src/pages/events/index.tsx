@@ -185,7 +185,7 @@ export default () => {
             <div className="item">
               <img src={A4_cafe.src} alt="" />
               <div className="right lightblue">
-                <h3>Кафе «Аякс» 4 уровень</h3>
+                <h3>Кафе «Аякс» - «Зона интеллектуалльных активностей» 4 уровень</h3>
                 <h4>11:00–12:00</h4>
                 <p>Марафон «ЕГЭ на сотку»</p>
                 <h4>14:00–15:00</h4>
