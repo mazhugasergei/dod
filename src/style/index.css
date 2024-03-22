@@ -9,6 +9,25 @@
 html {
   scroll-behavior: smooth;
 }
+table {
+
+  width: 500px;
+
+  border-collapse: collapse;
+
+  border: 2px solid white;
+
+}
+
+td {
+
+  padding: 3px;
+
+  border: 1px solid;
+
+  text-align: left;
+
+}
 
 :root {
   --wrapper-max-width: calc(90rem + var(--wrapper-padding));
