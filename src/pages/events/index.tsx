@@ -229,6 +229,12 @@ export default () => {
                   <h6 className="lightblue">3</h6>
                   <p>Фестиваль биотехнологических профессий</p>
                 </div>
+                <h3>Холл 5 уровень</h3>
+                <h4>9:00 - 16:00</h4>
+                <div className="flex">
+                  {/* <h6 className="lightblue">1</h6> */}
+                  <p>Студенческие организации</p>
+                </div>
 
               </div>
             </div>
