@@ -322,10 +322,7 @@ const Excursions = () => {
                     <td>10:00</td>
                     <td>30 билетов</td>
                   </tr>
-                  <tr >
-                    <td>14:00</td>
-                    <td>30 билетов</td>
-                  </tr>
+                  
 
                 </tbody>
               </table>
