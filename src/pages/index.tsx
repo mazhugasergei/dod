@@ -9,6 +9,7 @@ import Hero from "@/components/home/Hero"
 import Intro from '@/components/home/Intro'
 import Plan from "@/components/home/Plan"
 import QA from "@/components/home/QA"
+import Slavda from "@/components/home/Slavda"
 
 export default () => {
   const mainRef = useRef<HTMLDivElement>(null)
@@ -31,6 +32,7 @@ export default () => {
         <Intro />
         <Plan />
         <QA />
+        <Slavda />
       </main>
       <Footer />
     </>
