@@ -1,5 +1,5 @@
 // images
-import Image from "@/assets/images/Slavda.pdf"
+import Image from "@/assets/images/slavda.jpg"
 
 const Slavda = () => {
   return (
